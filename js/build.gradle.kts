@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation(project(":common"))
     implementation(kotlin("stdlib-js"))
+    implementation(npm("webpack-node-externals", "2.5.1"))
 }
 
 kotlin {
