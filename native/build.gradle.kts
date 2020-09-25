@@ -10,11 +10,18 @@ repositories {
 }
 
 kotlin {
-    macosX64("macos")
+    macosX64("macos") {
+        binaries {
+            executable {
+                entryPoint = "com.yt8492.speedtest.native.main"
+            }
+        }
+    }
 
     sourceSets {
         val macosMain by getting {
             dependencies {
+                implementation(project(":common"))
                 implementation(kotlin("stdlib-common"))
             }
         }

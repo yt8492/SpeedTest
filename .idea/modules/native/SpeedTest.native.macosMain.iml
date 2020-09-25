@@ -8,6 +8,10 @@
           <sourceSet>SpeedTest.native.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <externalSystemTestTasks>
+          <externalSystemNativeMainRunTask>runDebugExecutableMacos|:native:macosMain|macos|com.yt8492.speedtest.native.main|true</externalSystemNativeMainRunTask>
+          <externalSystemNativeMainRunTask>runReleaseExecutableMacos|:native:macosMain|macos|com.yt8492.speedtest.native.main|false</externalSystemNativeMainRunTask>
+        </externalSystemTestTasks>
         <compilerSettings />
         <compilerArguments>
           <option name="languageVersion" value="1.4" />
