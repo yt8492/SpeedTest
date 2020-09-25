@@ -5,9 +5,9 @@
       <configuration version="3" platform="Native (macos_x64) " allPlatforms="Native []/Native [macos_x64]" useProjectSettings="false" isTestModule="true" externalProjectId=":common">
         <dependsOnModuleNames>:common:commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>SpeedTest.common.commonMain</sourceSet>
           <sourceSet>SpeedTest.common.macosX64Main</sourceSet>
           <sourceSet>SpeedTest.common.commonTest</sourceSet>
+          <sourceSet>SpeedTest.common.commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>
